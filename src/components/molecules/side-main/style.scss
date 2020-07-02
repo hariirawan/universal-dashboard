@@ -1,0 +1,15 @@
+.sidebar-main {
+  padding: 0px 10px;
+  .ant-menu {
+    background-color: #ffffff;
+
+    .ant-menu-item:after {
+      border-right: none;
+      border: none;
+    }
+    .ant-menu-item-selected {
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+.sidebar-layout {
+  min-height: 100vh;
+
+  .ant-menu {
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .ant-menu-inline {
+    border-right: none;
+  }
+}
+
+.navbar-app {
+  background-color: #20232a !important;
+  margin-bottom: 30px;
+}
+
+.navbar-app a {
+  color: aliceblue !important;
+}
+
+.navbar-app .brand {
+  font-weight: bold;
+}
+
+.navbar-app .mr-auto {
+  margin-left: 5%;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.navbar-app span {
+  color: #61dafb;
+}
+
+.app-header {
+  background-color: rgb(255, 255, 255) !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.pin {
+  border: 2px solid rgb(30, 150, 36) !important;
+  margin-left: 0 !important;
+}
+
+.pin-label {
+  font-weight: 600px !important;
+  font-size: 17px !important;
+  margin-left: 20px !important;
+}
+
+.card-avatar {
+  // background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), green),
+  //   url("../../assets/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  // color: white;
+  // padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+
+  .avatar-selector {
+    text-align: center;
+  }
+  .avatar-desc {
+    .avatart-name {
+      text-justify: center;
+      font-size: 14px;
+    }
+    .avatar-role {
+      font-size: 12px;
+    }
+  }
+}
+
+.card-avatar.card-row {
+  flex-direction: row;
+
+  .avatar-selector {
+    margin-right: 10px;
+  }
+}
+.card-avatar.card-col {
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+  .avatar-selector {
+    margin-right: 0px;
+  }
+  .avatart-name {
+    margin-top: 10px;
+  }
+}
