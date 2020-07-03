@@ -1,5 +1,5 @@
 import React from "react";
-import { HomePage } from "../containers/pages";
+import { HomePage, ReportsPage } from "../containers/pages";
 
 interface IMenu {
   name: String;
@@ -18,6 +18,12 @@ const routes: Array<IMainMenu> = [
     path: "/users",
     name: "pengguna",
     component: HomePage,
+  },
+  {
+    icon: "Fa fa-home",
+    path: "/reports",
+    name: "pengguna",
+    component: ReportsPage,
   },
 ];
 

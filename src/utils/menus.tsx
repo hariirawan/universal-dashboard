@@ -8,17 +8,17 @@ import {
 } from "@ant-design/icons";
 const menus = [
   {
-    name: "Beranda",
+    name: "Overview",
     url: "/",
     icon: <HomeOutlined />,
   },
   {
-    name: "Master Data",
+    name: "Payments",
     url: "/master-data",
     icon: <DatabaseOutlined />,
     child: [
       {
-        name: "Role",
+        name: "Transactions",
         url: "/role",
         icon: "",
       },
@@ -40,8 +40,8 @@ const menus = [
     ],
   },
   {
-    name: "pengguna",
-    url: "/users",
+    name: "Reports",
+    url: "/reports",
     icon: <TeamOutlined />,
   },
   {
