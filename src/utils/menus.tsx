@@ -6,7 +6,7 @@ import {
   TeamOutlined,
   AuditOutlined,
 } from "@ant-design/icons";
-const menus = [
+const menus: any = [
   {
     name: "Overview",
     url: "/",

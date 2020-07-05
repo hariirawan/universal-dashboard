@@ -5,6 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 
 import { Switch, HashRouter } from "react-router-dom";
 import "antd/dist/antd.css";
+import "./assets/scss/global.scss";
 
 ReactDOM.render(
   <React.StrictMode>

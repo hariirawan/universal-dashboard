@@ -6,6 +6,7 @@ interface IMenu {
   path: String;
   icon?: React.ReactChild;
   component: any;
+  exact?: Boolean;
 }
 
 interface IMainMenu extends IMenu {
@@ -15,8 +16,9 @@ interface IMainMenu extends IMenu {
 const routes: Array<IMainMenu> = [
   {
     icon: "Fa fa-home",
-    path: "/users",
-    name: "pengguna",
+    path: "/",
+    exact: true,
+    name: "Home",
     component: HomePage,
   },
   {
