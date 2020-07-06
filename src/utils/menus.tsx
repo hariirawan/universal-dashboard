@@ -8,7 +8,7 @@ import {
 } from "@ant-design/icons";
 const menus: any = [
   {
-    name: "Overview",
+    name: "Home",
     url: "/",
     icon: <HomeOutlined />,
   },
@@ -19,7 +19,7 @@ const menus: any = [
     child: [
       {
         name: "Transactions",
-        url: "/role",
+        url: "/transactions",
         icon: "",
       },
       {
