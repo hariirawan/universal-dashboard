@@ -1,5 +1,8 @@
+@import "../../../assets/scss/variable.scss";
+
 .ant-card.mo-card {
   border-radius: 8px;
+  border: 1px solid $light-color;
 
   .ant-card-body {
     min-height: 100px;

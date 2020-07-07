@@ -154,16 +154,11 @@ export default function Transactions() {
     },
   ];
 
-  const rowSelection = {
-    selectedRowKeys: [],
-  };
-
   return (
     <Fragment>
       <div className="site-page-header-ghost-wrapper">
         <PageHeader
           ghost={true}
-          onBack={() => window.history.back()}
           title="Contacts"
           subTitle="5 Total"
           style={{ paddingLeft: 0, paddingRight: 0 }}
@@ -177,7 +172,6 @@ export default function Transactions() {
       </div>
       <Table
         className="table-update"
-        rowSelection={rowSelection}
         columns={columns}
         dataSource={data}
         pagination={{ position: ["bottomCenter"] }}
